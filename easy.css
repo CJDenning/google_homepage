@@ -1,0 +1,105 @@
+* {font-family: Arial, sans-serif;}
+
+p {font-size: .8em;}
+
+a {text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul a {
+	padding: 10px;
+	font-size: .8em;
+}
+
+li {
+	display: inline;
+}
+
+li img {vertical-align:top;}
+
+#top {
+	width:100%;
+	text-align: right;
+	padding: 10px 7px 50px 0;
+}
+
+#top a {color:#333;}
+
+#top #signin a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+#top #signin a:hover {text-decoration: none;}
+
+#signin {
+	background-color: #4285f4;
+	border-radius: 2px;
+	padding: 5px 2px;
+	margin: 0 3px 0 10px;
+	font-weight: bold;
+}
+
+#search {
+	text-align: center;
+	padding: 110px 0 50px 0;
+}
+
+input {
+	width: 450px;
+	height: 35px;
+	border: 1px solid #9f9f9f;
+	margin: 20px 0 20px 0;
+}
+
+input:focus {border: 1px solid #49f;}
+
+button {
+	padding: 10px;
+	color: #777;
+	margin: 10px 5px 10px 0;
+	background-color: #f5f5f5;
+	border: 1px solid #f5f5f5; /*so the buttons don't
+figet when hovered over*/
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+button:hover {
+	color: #333;
+	border: 1px solid #333;
+	background-color: #f7f7f7;
+}
+
+
+#bleft {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#bright {
+	position:absolute;
+	bottom: 0;
+	right: 0;
+	text-align: right;
+}
+
+#bleft, #bright {
+	background-color: #f5f5f5;
+	width: 50%;
+	line-height: 50px;
+	border-top: 1px solid #d4d4d4;
+	margin-top: 60px;
+}
+
+#bleft a, #bright a {
+	color:#666;
+}

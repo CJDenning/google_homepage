@@ -53,10 +53,12 @@ li img {vertical-align:top;}
 }
 
 input {
-	width: 450px;
+	width: 475px;
 	height: 35px;
 	border: 1px solid #9f9f9f;
 	margin: 20px 0 20px 0;
+	font-size: 18px;
+	padding-left:7px;
 }
 
 input:focus {border: 1px solid #49f;}
